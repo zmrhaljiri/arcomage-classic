@@ -1,0 +1,1897 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "stringId": "brick_shortage",
+      "cardName": "Brick Shortage",
+      "description": "All players lose 8 bricks",
+      "type": "quarries",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": -8
+        },
+        "enemy": {
+          "bricks": -8
+        }
+      }
+    },
+    {
+      "id": 2,
+      "stringId": "lucky_cache",
+      "cardName": "Lucky Cache",
+      "description": "+2 Bricks. +2 Gems. Play again",
+      "type": "quarries",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": 2,
+          "gems": 2
+        }
+      }
+    },
+    {
+      "id": 3,
+      "stringId": "friendly_terrain",
+      "cardName": "Friendly Terrain",
+      "description": "+1 Wall. Play again",
+      "type": "quarries",
+      "cost": 1,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "stringId": "miners",
+      "cardName": "Miners",
+      "description": "+1 Quarry",
+      "type": "quarries",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "stringId": "mother_lode",
+      "cardName": "Mother Lode",
+      "description": "If quarry < enemy quarry, +2 quarry. Else, +1 quarry",
+      "type": "quarries",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 6,
+      "stringId": "dwarven_miners",
+      "cardName": "Dwarven Miners",
+      "description": "+4 Wall, +1 quarry",
+      "type": "quarries",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": 1,
+          "wall": 4
+        }
+      }
+    },
+    {
+      "id": 7,
+      "stringId": "work_overtime",
+      "cardName": "Work Overtime",
+      "description": "+5 Wall. You lose 6 gems",
+      "type": "quarries",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": -6,
+          "wall": 5
+        }
+      }
+    },
+    {
+      "id": 8,
+      "stringId": "copping_the_tech",
+      "cardName": "Copping the Tech",
+      "description": "If quarry < enemy quarry, quarry = enemy quarry",
+      "type": "quarries",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 9,
+      "stringId": "basic_wall",
+      "cardName": "Basic Wall",
+      "description": "+3 Wall",
+      "type": "quarries",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 3
+        }
+      }
+    },
+    {
+      "id": 10,
+      "stringId": "sturdy_wall",
+      "cardName": "Sturdy Wall",
+      "description": "+4 Wall",
+      "type": "quarries",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 4
+        }
+      }
+    },
+    {
+      "id": 11,
+      "stringId": "innovations",
+      "cardName": "Innovations",
+      "description": "+1 To all player's quarrys, you gain 4 gems",
+      "type": "quarries",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": 1,
+          "gems": 4
+        },
+        "enemy": {
+          "quarries": 1
+        }
+      }
+    },
+    {
+      "id": 12,
+      "stringId": "foundations",
+      "cardName": "Foundations",
+      "description": "If wall = 0, +6 wall, else +3 wall",
+      "type": "quarries",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 13,
+      "stringId": "tremors",
+      "cardName": "Tremors",
+      "description": "All walls take 5 damage. Play again",
+      "type": "quarries",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": -5
+        },
+        "enemy": {
+          "wall": -5
+        }
+      }
+    },
+    {
+      "id": 14,
+      "stringId": "secret_room",
+      "cardName": "Secret Room",
+      "description": "+1 Magic. Play again",
+      "type": "quarries",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 1
+        }
+      }
+    },
+    {
+      "id": 15,
+      "stringId": "earthquake",
+      "cardName": "Earthquake",
+      "description": "-1 To all player's quarrys",
+      "type": "quarries",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": -1
+        },
+        "enemy": {
+          "quarries": -1
+        }
+      }
+    },
+    {
+      "id": 16,
+      "stringId": "big_wall",
+      "cardName": "Big Wall",
+      "description": "+6 Wall",
+      "type": "quarries",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 6
+        }
+      }
+    },
+    {
+      "id": 17,
+      "stringId": "collapse",
+      "cardName": "Collapse",
+      "description": "-1 Enemy quarry",
+      "type": "quarries",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "quarries": -1
+        }
+      }
+    },
+    {
+      "id": 18,
+      "stringId": "new_equipment",
+      "cardName": "New Equipment",
+      "description": "+2 Quarry",
+      "type": "quarries",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": 2
+        }
+      }
+    },
+    {
+      "id": 19,
+      "stringId": "strip_mine",
+      "cardName": "Strip Mine",
+      "description": "-1 Quarry. +10 Wall. You gain 5 gems",
+      "type": "quarries",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "quarries": -1,
+          "gems": 5,
+          "wall": 10
+        }
+      }
+    },
+    {
+      "id": 20,
+      "stringId": "reinforced_wall",
+      "cardName": "Reinforced Wall",
+      "description": "+8 Wall",
+      "type": "quarries",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 8
+        }
+      }
+    },
+    {
+      "id": 21,
+      "stringId": "portcullis",
+      "cardName": "Portcullis",
+      "description": "+5 Wall, +1 dungeon",
+      "type": "quarries",
+      "cost": 9,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "dungeons": 1,
+          "wall": 5
+        }
+      }
+    },
+    {
+      "id": 22,
+      "stringId": "crystal_rocks",
+      "cardName": "Crystal Rocks",
+      "description": "+7 Wall, gain 7 gems",
+      "type": "quarries",
+      "cost": 9,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": 7,
+          "wall": 7
+        }
+      }
+    },
+    {
+      "id": 23,
+      "stringId": "harmonic_ore",
+      "cardName": "Harmonic Ore",
+      "description": "+6 Wall, +3 tower",
+      "type": "quarries",
+      "cost": 11,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 6,
+          "tower": 3
+        }
+      }
+    },
+    {
+      "id": 24,
+      "stringId": "mondo_wall",
+      "cardName": "Mondo Wall",
+      "description": "+12 Wall",
+      "type": "quarries",
+      "cost": 13,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 12
+        }
+      }
+    },
+    {
+      "id": 25,
+      "stringId": "focused_designs",
+      "cardName": "Focused Designs",
+      "description": "+8 Wall, +5 tower",
+      "type": "quarries",
+      "cost": 15,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 8,
+          "tower": 5
+        }
+      }
+    },
+    {
+      "id": 26,
+      "stringId": "great_wall",
+      "cardName": "Great Wall",
+      "description": "+15 Wall",
+      "type": "quarries",
+      "cost": 16,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 15
+        }
+      }
+    },
+    {
+      "id": 27,
+      "stringId": "rock_launcher",
+      "cardName": "Rock Launcher",
+      "description": "+6 Wall. 10 Damage to enemy",
+      "type": "quarries",
+      "cost": 18,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 6
+        },
+        "enemy": {
+          "damage": 10
+        }
+      }
+    },
+    {
+      "id": 28,
+      "stringId": "dragons_heart",
+      "cardName": "Dragon's Heart",
+      "description": "+20 Wall. +8 Tower",
+      "type": "quarries",
+      "cost": 24,
+      "rarity": "epic",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 20,
+          "tower": 8
+        }
+      }
+    },
+    {
+      "id": 29,
+      "stringId": "forced_labor",
+      "cardName": "Forced Labor",
+      "description": "+9 Wall, lose 5 recruits",
+      "type": "quarries",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": -5,
+          "wall": 9
+        }
+      }
+    },
+    {
+      "id": 30,
+      "stringId": "rock_garden",
+      "cardName": "Rock Garden",
+      "description": "+1 Wall. +1 Tower. +2 Recruits",
+      "type": "quarries",
+      "cost": 1,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": 2,
+          "wall": 1,
+          "tower": 1
+        }
+      }
+    },
+    {
+      "id": 31,
+      "stringId": "flood_water",
+      "cardName": "Flood Water",
+      "description": "Player(s) w/ lowest wall are -1 Dungeon and 2 damage to tower",
+      "type": "quarries",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 32,
+      "stringId": "barracks",
+      "cardName": "Barracks",
+      "description": "+6 Recruits, +6 wall. If dungeon < enemy dungeon, +1 dungeon",
+      "type": "quarries",
+      "cost": 10,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": 6,
+          "wall": 6
+        }
+      }
+    },
+    {
+      "id": 33,
+      "stringId": "battlements",
+      "cardName": "Battlements",
+      "description": "+7 Wall, 6 damage to enemy",
+      "type": "quarries",
+      "cost": 14,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 7
+        },
+        "enemy": {
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 34,
+      "stringId": "shift",
+      "cardName": "Shift",
+      "description": "Switch your wall with enemy wall",
+      "type": "quarries",
+      "cost": 17,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 35,
+      "stringId": "quartz",
+      "cardName": "Quartz",
+      "description": "+1 Tower. Play again",
+      "type": "magic",
+      "cost": 1,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 1
+        }
+      }
+    },
+    {
+      "id": 36,
+      "stringId": "smoky_quartz",
+      "cardName": "Smoky Quartz",
+      "description": "1 Damage to enemy tower. Play again",
+      "type": "magic",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -1
+        }
+      }
+    },
+    {
+      "id": 37,
+      "stringId": "amethyst",
+      "cardName": "Amethyst",
+      "description": "+3 Tower",
+      "type": "magic",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 3
+        }
+      }
+    },
+    {
+      "id": 38,
+      "stringId": "spell_weavers",
+      "cardName": "Spell Weavers",
+      "description": "+1 Magic",
+      "type": "magic",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 1
+        }
+      }
+    },
+    {
+      "id": 39,
+      "stringId": "prism",
+      "cardName": "Prism",
+      "description": "Draw 1 card. Discard 1 card. Play again",
+      "type": "magic",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": true
+    },
+    {
+      "id": 40,
+      "stringId": "lodestone",
+      "cardName": "Lodestone",
+      "description": "+3 Tower. This card can't be discarded without playing it",
+      "type": "magic",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": false,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 3
+        }
+      }
+    },
+    {
+      "id": 41,
+      "stringId": "solar_flare",
+      "cardName": "Solar Flare",
+      "description": "+2 Tower. 2 Damage to enemy tower",
+      "type": "magic",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 2
+        },
+        "enemy": {
+          "tower": -2
+        }
+      }
+    },
+    {
+      "id": 42,
+      "stringId": "crystal_matrix",
+      "cardName": "Crystal Matrix",
+      "description": "+1 Magic. +3 Tower. +1 Enemy tower",
+      "type": "magic",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 1,
+          "tower": 3
+        },
+        "enemy": {
+          "tower": 1
+        }
+      }
+    },
+    {
+      "id": 43,
+      "stringId": "gemstone_flaw",
+      "cardName": "Gemstone Flaw",
+      "description": "3 Damage to enemy tower",
+      "type": "magic",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -3
+        }
+      }
+    },
+    {
+      "id": 44,
+      "stringId": "ruby",
+      "cardName": "Ruby",
+      "description": "+5 Tower",
+      "type": "magic",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 5
+        }
+      }
+    },
+    {
+      "id": 45,
+      "stringId": "gem_spear",
+      "cardName": "Gem Spear",
+      "description": "5 Damage to enemy tower",
+      "type": "magic",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -5
+        }
+      }
+    },
+    {
+      "id": 46,
+      "stringId": "power_burn",
+      "cardName": "Power Burn",
+      "description": "5 Damage to your tower. +2 Magic",
+      "type": "magic",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 2,
+          "tower": -5
+        }
+      }
+    },
+    {
+      "id": 47,
+      "stringId": "harmonic_vibe",
+      "cardName": "Harmonic Vibe",
+      "description": "+1 Magic. +3 Tower. +3 Wall",
+      "type": "magic",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 1,
+          "wall": 3,
+          "tower": 3
+        }
+      }
+    },
+    {
+      "id": 48,
+      "stringId": "parity",
+      "cardName": "Parity",
+      "description": "All player's magic equals the highest player's magic",
+      "type": "magic",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 49,
+      "stringId": "emerald",
+      "cardName": "Emerald",
+      "description": "+8 Tower",
+      "type": "magic",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 8
+        }
+      }
+    },
+    {
+      "id": 50,
+      "stringId": "pearl_of_wisdom",
+      "cardName": "Pearl of Wisdom",
+      "description": "+5 Tower. +1 Magic",
+      "type": "magic",
+      "cost": 9,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": 1,
+          "tower": 5
+        }
+      }
+    },
+    {
+      "id": 51,
+      "stringId": "shatterer",
+      "cardName": "Shatterer",
+      "description": "-1 Magic. 9 Damage to enemy tower",
+      "type": "magic",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": -1
+        },
+        "enemy": {
+          "tower": -9
+        }
+      }
+    },
+    {
+      "id": 52,
+      "stringId": "crumblestone",
+      "cardName": "Crumblestone",
+      "description": "+5 Tower. Enemy loses 6 bricks",
+      "type": "magic",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 5
+        },
+        "enemy": {
+          "bricks": -6
+        }
+      }
+    },
+    {
+      "id": 53,
+      "stringId": "sapphire",
+      "cardName": "Sapphire",
+      "description": "+11 Tower",
+      "type": "magic",
+      "cost": 10,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 11
+        }
+      }
+    },
+    {
+      "id": 54,
+      "stringId": "discord",
+      "cardName": "Discord",
+      "description": "7 Damage to all towers, all players magic -1",
+      "type": "magic",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "magic": -1,
+          "tower": -7
+        },
+        "enemy": {
+          "magic": -1,
+          "tower": -7
+        }
+      }
+    },
+    {
+      "id": 55,
+      "stringId": "fire_ruby",
+      "cardName": "Fire Ruby",
+      "description": "+6 Tower. 4 Damage to enemy tower",
+      "type": "magic",
+      "cost": 13,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 6
+        },
+        "enemy": {
+          "tower": -4
+        }
+      }
+    },
+    {
+      "id": 56,
+      "stringId": "quarrys_help",
+      "cardName": "Quarry's Help",
+      "description": "+7 Tower. Lose 10 bricks",
+      "type": "magic",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": -10,
+          "tower": 7
+        }
+      }
+    },
+    {
+      "id": 57,
+      "stringId": "crystal_shield",
+      "cardName": "Crystal Shield",
+      "description": "+8 Tower. +3 Wall",
+      "type": "magic",
+      "cost": 12,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 3,
+          "tower": 8
+        }
+      }
+    },
+    {
+      "id": 58,
+      "stringId": "empathy_gem",
+      "cardName": "Empathy Gem",
+      "description": "+8 Tower. +1 Dungeon",
+      "type": "magic",
+      "cost": 14,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "dungeons": 1,
+          "tower": 8
+        }
+      }
+    },
+    {
+      "id": 59,
+      "stringId": "diamond",
+      "cardName": "Diamond",
+      "description": "+15 Tower",
+      "type": "magic",
+      "cost": 16,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 15
+        }
+      }
+    },
+    {
+      "id": 60,
+      "stringId": "sanctuary",
+      "cardName": "Sanctuary",
+      "description": "+10 Tower. +5 Wall, gain 5 recruits",
+      "type": "magic",
+      "cost": 15,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": 5,
+          "wall": 5,
+          "tower": 10
+        }
+      }
+    },
+    {
+      "id": 61,
+      "stringId": "lava_jewel",
+      "cardName": "Lava Jewel",
+      "description": "+12 Tower. 6 Damage to enemy",
+      "type": "magic",
+      "cost": 17,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 12
+        },
+        "enemy": {
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 62,
+      "stringId": "dragons_eye",
+      "cardName": "Dragon's Eye",
+      "description": "+20 Tower",
+      "type": "magic",
+      "cost": 21,
+      "rarity": "epic",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": 20
+        }
+      }
+    },
+    {
+      "id": 63,
+      "stringId": "crystallize",
+      "cardName": "Crystallize",
+      "description": "+11 Tower. -6 Wall",
+      "type": "magic",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": -6,
+          "tower": 11
+        }
+      }
+    },
+    {
+      "id": 64,
+      "stringId": "bag_of_baubles",
+      "cardName": "Bag of Baubles",
+      "description": "If tower < enemy tower, +2 tower. Else +1 tower",
+      "type": "magic",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 65,
+      "stringId": "rainbow",
+      "cardName": "Rainbow",
+      "description": "+1 Tower to all players. You gain 3 gems",
+      "type": "magic",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": 3,
+          "tower": 1
+        },
+        "enemy": {
+          "tower": 1
+        }
+      }
+    },
+    {
+      "id": 66,
+      "stringId": "apprentice",
+      "cardName": "Apprentice",
+      "description": "+4 Tower, you lose 3 recruits, 2 damage to enemy tower",
+      "type": "magic",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": -3,
+          "tower": 4
+        },
+        "enemy": {
+          "tower": -2
+        }
+      }
+    },
+    {
+      "id": 67,
+      "stringId": "lightning_shard",
+      "cardName": "Lightning Shard",
+      "description": "If Tower > enemy wall, 8 damage to enemy tower. Else 8 damage",
+      "type": "magic",
+      "cost": 11,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 68,
+      "stringId": "phase_jewel",
+      "cardName": "Phase Jewel",
+      "description": "+13 Tower. +6 Recruits. +6 Bricks",
+      "type": "magic",
+      "cost": 18,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": 6,
+          "recruits": 6,
+          "tower": 13
+        }
+      }
+    },
+    {
+      "id": 69,
+      "stringId": "mad_cow_disease",
+      "cardName": "Mad Cow Disease",
+      "description": "All players lose 6 recruits",
+      "type": "dungeons",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "recruits": -6
+        },
+        "enemy": {
+          "recruits": -6
+        }
+      }
+    },
+    {
+      "id": 70,
+      "stringId": "faerie",
+      "cardName": "Faerie",
+      "description": "2 Damage. Play again",
+      "type": "dungeons",
+      "cost": 1,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "damage": 2
+        }
+      }
+    },
+    {
+      "id": 71,
+      "stringId": "moody_goblins",
+      "cardName": "Moody Goblins",
+      "description": "4 Damage. You lose 3 gems",
+      "type": "dungeons",
+      "cost": 1,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": -3
+        },
+        "enemy": {
+          "damage": 4
+        }
+      }
+    },
+    {
+      "id": 72,
+      "stringId": "minotaur",
+      "cardName": "Minotaur",
+      "description": "+1 Dungeon",
+      "type": "dungeons",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "dungeons": 1
+        }
+      }
+    },
+    {
+      "id": 73,
+      "stringId": "elven_scout",
+      "cardName": "Elven Scout",
+      "description": "Draw 1 card. Discard 1 card. Play again",
+      "type": "dungeons",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": true
+    },
+    {
+      "id": 74,
+      "stringId": "goblin_mob",
+      "cardName": "Goblin Mob",
+      "description": "6 Damage. You take 3 damage",
+      "type": "dungeons",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "damage": 3
+        },
+        "enemy": {
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 75,
+      "stringId": "goblin_archers",
+      "cardName": "Goblin Archers",
+      "description": "3 Damage to enemy tower. You take 1 damage",
+      "type": "dungeons",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "damage": 1
+        },
+        "enemy": {
+          "tower": -3
+        }
+      }
+    },
+    {
+      "id": 76,
+      "stringId": "shadow_faerie",
+      "cardName": "Shadow Faerie",
+      "description": "2 Damage to enemy tower. Play again",
+      "type": "dungeons",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": true,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -2
+        }
+      }
+    },
+    {
+      "id": 77,
+      "stringId": "orc",
+      "cardName": "Orc",
+      "description": "5 Damage",
+      "type": "dungeons",
+      "cost": 3,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "damage": 5
+        }
+      }
+    },
+    {
+      "id": 78,
+      "stringId": "dwarves",
+      "cardName": "Dwarves",
+      "description": "4 Damage. +3 Wall",
+      "type": "dungeons",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 3
+        },
+        "enemy": {
+          "damage": 4
+        }
+      }
+    },
+    {
+      "id": 79,
+      "stringId": "little_snakes",
+      "cardName": "Little Snakes",
+      "description": "4 Damage to enemy tower",
+      "type": "dungeons",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -4
+        }
+      }
+    },
+    {
+      "id": 80,
+      "stringId": "troll_trainer",
+      "cardName": "Troll Trainer",
+      "description": "+2 Dungeon",
+      "type": "dungeons",
+      "cost": 7,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "dungeons": 2
+        }
+      }
+    },
+    {
+      "id": 81,
+      "stringId": "tower_gremlin",
+      "cardName": "Tower Gremlin",
+      "description": "2 Damage. +4 Tower. +2 Wall",
+      "type": "dungeons",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 4,
+          "tower": 2
+        },
+        "enemy": {
+          "damage": 2
+        }
+      }
+    },
+    {
+      "id": 82,
+      "stringId": "full_moon",
+      "cardName": "Full Moon",
+      "description": "+1 to all player's dungeon. You gain 3 recruits",
+      "type": "dungeons",
+      "cost": 0,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "dungeons": 1,
+          "recruits": 3
+        },
+        "enemy": {
+          "dungeons": 1
+        }
+      }
+    },
+    {
+      "id": 83,
+      "stringId": "slasher",
+      "cardName": "Slasher",
+      "description": "6 Damage",
+      "type": "dungeons",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 84,
+      "stringId": "ogre",
+      "cardName": "Ogre",
+      "description": "7 Damage",
+      "type": "dungeons",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "damage": 7
+        }
+      }
+    },
+    {
+      "id": 85,
+      "stringId": "rabid_sheep",
+      "cardName": "Rabid Sheep",
+      "description": "6 Damage. Enemy loses 3 recruits",
+      "type": "dungeons",
+      "cost": 6,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "recruits": -3,
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 86,
+      "stringId": "imp",
+      "cardName": "Imp",
+      "description": "6 Damage. All players lose 5 bricks, gems and recruits",
+      "type": "dungeons",
+      "cost": 5,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": -5,
+          "gems": -5,
+          "recruits": -5
+        },
+        "enemy": {
+          "bricks": -5,
+          "gems": -5,
+          "recruits": -5,
+          "damage": 6
+        }
+      }
+    },
+    {
+      "id": 87,
+      "stringId": "spizzer",
+      "cardName": "Spizzer",
+      "description": "If enemy wall = 0, 10 damage, else 6 damage",
+      "type": "dungeons",
+      "cost": 8,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 88,
+      "stringId": "werewolf",
+      "cardName": "Werewolf",
+      "description": "9 Damage",
+      "type": "dungeons",
+      "cost": 9,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "damage": 9
+        }
+      }
+    },
+    {
+      "id": 89,
+      "stringId": "corrosion_cloud",
+      "cardName": "Corrosion Cloud",
+      "description": "If enemy wall > 0, 10 damage, else 7 damage",
+      "type": "dungeons",
+      "cost": 11,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 90,
+      "stringId": "unicorn",
+      "cardName": "Unicorn",
+      "description": "If magic > enemy magic, 12 damage, else 8 damage",
+      "type": "dungeons",
+      "cost": 9,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 91,
+      "stringId": "elven_archers",
+      "cardName": "Elven Archers",
+      "description": "If wall > enemy wall, 6 damage to enemy tower, else 6 damage",
+      "type": "dungeons",
+      "cost": 10,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 92,
+      "stringId": "succubus",
+      "cardName": "Succubus",
+      "description": "5 Damage to enemy tower, enemy loses 8 recruits",
+      "type": "dungeons",
+      "cost": 14,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "recruits": -8,
+          "tower": -5
+        }
+      }
+    },
+    {
+      "id": 93,
+      "stringId": "rock_stompers",
+      "cardName": "Rock Stompers",
+      "description": "8 Damage, -1 enemy quarry",
+      "type": "dungeons",
+      "cost": 11,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "quarries": -1,
+          "damage": 8
+        }
+      }
+    },
+    {
+      "id": 94,
+      "stringId": "thief",
+      "cardName": "Thief",
+      "description": "Enemy loses 10 gems, 5 bricks, you gain 1/2 amt. round up",
+      "type": "dungeons",
+      "cost": 12,
+      "rarity": "uncommon",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "bricks": 3,
+          "gems": 5
+        },
+        "enemy": {
+          "bricks": -6,
+          "gems": -10
+        }
+      }
+    },
+    {
+      "id": 95,
+      "stringId": "stone_giant",
+      "cardName": "Stone Giant",
+      "description": "10 Damage. +4 Wall",
+      "type": "dungeons",
+      "cost": 15,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "wall": 4
+        },
+        "enemy": {
+          "damage": 10
+        }
+      }
+    },
+    {
+      "id": 96,
+      "stringId": "vampire",
+      "cardName": "Vampire",
+      "description": "10 Damage. Enemy loses 5 recruits, -1 enemy dungeon",
+      "type": "dungeons",
+      "cost": 17,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "dungeons": -1,
+          "recruits": -5,
+          "damage": 10
+        }
+      }
+    },
+    {
+      "id": 97,
+      "stringId": "dragon",
+      "cardName": "Dragon",
+      "description": "20 Damage. Enemy loses 10 gems, -1 enemy dungeon",
+      "type": "dungeons",
+      "cost": 25,
+      "rarity": "epic",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "dungeons": -1,
+          "recruits": -10,
+          "damage": 20
+        }
+      }
+    },
+    {
+      "id": 98,
+      "stringId": "spearman",
+      "cardName": "Spearman",
+      "description": "If wall > enemy wall do 3 damage else do 2 damage",
+      "type": "dungeons",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": true,
+      "additionalTurn": false,
+      "discard": false
+    },
+    {
+      "id": 99,
+      "stringId": "gnome",
+      "cardName": "Gnome",
+      "description": "3 Damage. +1 Gem",
+      "type": "dungeons",
+      "cost": 2,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": 1
+        },
+        "enemy": {
+          "damage": 3
+        }
+      }
+    },
+    {
+      "id": 100,
+      "stringId": "berserker",
+      "cardName": "Berserker",
+      "description": "8 Damage. 3 Damage to your tower",
+      "type": "dungeons",
+      "cost": 4,
+      "rarity": "common",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "tower": -3
+        },
+        "enemy": {
+          "damage": 8
+        }
+      }
+    },
+    {
+      "id": 101,
+      "stringId": "warlord",
+      "cardName": "Warlord",
+      "description": "13 Damage. You lose 3 gems",
+      "type": "dungeons",
+      "cost": 13,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "self": {
+          "gems": -3
+        },
+        "enemy": {
+          "damage": 13
+        }
+      }
+    },
+    {
+      "id": 102,
+      "stringId": "pegasus_lancer",
+      "cardName": "Pegasus Lancer",
+      "description": "12 Damage to enemy tower",
+      "type": "dungeons",
+      "cost": 18,
+      "rarity": "rare",
+      "discardable": true,
+      "extraAction": false,
+      "additionalTurn": false,
+      "discard": false,
+      "stats": {
+        "enemy": {
+          "tower": -12
+        }
+      }
+    }
+  ]
+}
