@@ -2,7 +2,7 @@
 
 This project is my tribute to the original.
 
-Play the <a href="https://zmrhaljiri.github.io/arcomage/">online version</a> or download the <a href="https://github.com/zmrhaljiri/arcomage-classic/releases">Windows executable</a>.
+Play the <a href="https://zmrhaljiri.github.io/arcomage/">online version</a> or download the Windows executable from <a href="https://github.com/zmrhaljiri/arcomage-classic/releases">Releases</a>.
 <br>
 *Note: The game is not optimized for mobile devices yet. For the best experience, play on a laptop/desktop.*
 
